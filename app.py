@@ -84,10 +84,12 @@ if submit_button:
         st.success(f"✅ LOW RISK: The AI predicts this applicant will PAY OFF the loan.")
         st.write(f"**Probability of Default:** {probability:.2f}%")
 
-# Portfolio Footer
-st.sidebar.markdown("---")
-st.sidebar.markdown("**Project Developed By:**")
-st.sidebar.markdown("Adarsh Kauhik")
-st.sidebar.markdown("Roll No: 24155301")
-st.sidebar.markdown("B.Tech CSE (AI/ML)")
-st.sidebar.markdown("KIIT University")
+# Centered Portfolio Footer
+st.divider()
+footer_html = """
+<div style="text-align: center;">
+    <p><strong>Project Developed By:</strong> Adarsh Kaushik</p>
+    <p>Roll No: 24155301 | B.Tech CSE (AI/ML) | KIIT University</p>
+</div>
+"""
+st.markdown(footer_html, unsafe_allow_html=True)
