@@ -19,7 +19,7 @@ This project bridges the gap between heavy AutoML scouting and lightweight produ
 ### 📊 Exploratory Data Analysis & AI Logic
 The dashboard below illustrates the class balance, risk clusters (income vs. loan amount), financial feature correlations, and the internal logic of the XGBoost model highlighting the top default risk factors (such as Loan Grade and Debt-to-Income Ratio).
 
-![EDA Dashboard](Dashboard.jpg)
+![EDA Dashboard](Dashboard.png)
 
 ### 💻 How to Run Locally
 If you want to test this application on your own machine:
